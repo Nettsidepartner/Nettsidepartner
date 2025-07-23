@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NettsidePartner.no</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a2540;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #0a2540;
+    }
+
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      background-color: #0a2540;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-info {
+      margin-top: 2rem;
+    }
+
+    .contact-info p {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #0a2540;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>NettsidePartner.no</strong></div>
+  <nav>
+    <a href="#hjem">Hjem</a>
+    <a href="#tjenester">Tjenester</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#omoss">Om oss</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<section id="hjem">
+  <h1>Vi lager moderne og effektive nettsider</h1>
+  <p>NettsidePartner.no hjelper små og mellomstore bedrifter med profesjonelle og brukervennlige nettsider – tilpasset ditt behov.</p>
+</section>
+
+<section id="tjenester">
+  <h2>Våre tjenester</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Nettsideutvikling</h3>
+      <p>Skreddersydde nettsider som ser bra ut på alle skjermer.</p>
+    </div>
+    <div class="card">
+      <h3>Design og branding</h3>
+      <p>Logo, fargevalg og visuell profil som styrker merkevaren din.</p>
+    </div>
+    <div class="card">
+      <h3>SEO og hastighet</h3>
+      <p>Optimalisering for søkemotorer og raske lastetider.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="card">
+      <h3>Frisørsalong</h3>
+      <p>Elegant nettside med booking og galleri.</p>
+    </div>
+    <div class="card">
+      <h3>Rørleggerfirma</h3>
+      <p>Praktisk infoside med kontaktskjema og kart.</p>
+    </div>
+    <div class="card">
+      <h3>Kafé</h3>
+      <p>Nettside med meny og åpningstider – mobiltilpasset.</p>
+    </div>
+  </div>
+</section>
+
+<section id="omoss">
+  <h2>Om oss</h2>
+  <p>Vi er et lite webbyrå som brenner for å hjelpe lokale bedrifter å lykkes på nett. Hos oss får du personlig oppfølging, ærlig rådgivning og en nettside som virkelig fungerer.</p>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakt oss</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Navn" required>
+    <input type="email" placeholder="E-post" required>
+    <textarea placeholder="Din melding" rows="5" required></textarea>
+    <button type="submit">Send melding</button>
+  </form>
+
+  <div class="contact-info">
+    <p><strong>E-post:</strong> <a href="mailto:45kaafi@gmail.com">45kaafi@gmail.com</a></p>
+    <p><strong>Telefon:</strong> <a href="tel:40897595">40897595</a></p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 NettsidePartner.no.
+</footer>
+
+</body>
+</html>
