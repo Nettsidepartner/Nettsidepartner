@@ -3,29 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NettsidePartner.no</title>
+  <title>NettsidePartner</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #f9f9f9;
       color: #333;
-    }
-
-    header {
-      background-color: #0a2540;
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 1.5rem;
-      font-weight: bold;
     }
 
     section {
@@ -91,20 +75,9 @@
 </head>
 <body>
 
-<header>
-  <div><strong>NettsidePartner.no</strong></div>
-  <nav>
-    <a href="#hjem">Hjem</a>
-    <a href="#tjenester">Tjenester</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#omoss">Om oss</a>
-    <a href="#kontakt">Kontakt</a>
-  </nav>
-</header>
-
 <section id="hjem">
   <h1>Vi lager moderne og effektive nettsider</h1>
-  <p>NettsidePartner.no hjelper små og mellomstore bedrifter med profesjonelle og brukervennlige nettsider – tilpasset ditt behov.</p>
+  <p>NettsidePartner hjelper små og mellomstore bedrifter med profesjonelle og brukervennlige nettsider – tilpasset ditt behov.</p>
 </section>
 
 <section id="tjenester">
@@ -150,21 +123,20 @@
 
 <section id="kontakt">
   <h2>Kontakt oss</h2>
-  <form class="contact-form">
-    <input type="text" placeholder="Navn" required>
-    <input type="email" placeholder="E-post" required>
-    <textarea placeholder="Din melding" rows="5" required></textarea>
+  <form action="https://formspree.io/f/xpwlpklp" method="POST" class="contact-form">
+    <input type="text" name="navn" placeholder="Navn" required>
+    <input type="email" name="email" placeholder="E-post" required>
+    <textarea name="melding" placeholder="Din melding" rows="5" required></textarea>
     <button type="submit">Send melding</button>
   </form>
 
-  <div class="contact-info">
-    <p><strong>E-post:</strong> <a href="mailto:45kaafi@gmail.com">45kaafi@gmail.com</a></p>
+  <div class="contact-info"> 
     <p><strong>Telefon:</strong> <a href="tel:40897595">40897595</a></p>
   </div>
 </section>
 
 <footer>
-  &copy; 2025 NettsidePartner.no.
+  &copy; 2025 NettsidePartner. Alle rettigheter reservert.
 </footer>
 
 </body>
